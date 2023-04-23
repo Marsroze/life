@@ -1,7 +1,15 @@
 # Conway's Game of Life
 
 An implementation of Conway's Game of Life in zig, for learning purposes.
-Works on x86_64 and x86 windows.
+Tested on x86_64 and x86 windows.
+
+## Building the project
+
+```sh
+zig build -Drelease-fast
+```
+
+## LICENSE
 
 ```text
 Copyright (C) 2023 Marsroze.

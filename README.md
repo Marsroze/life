@@ -1,6 +1,6 @@
 # Conway's Game of Life
 
-An implementation of Conway's Game of Life in zig, for learning purposes.
+An implementation of Conway's Game of Life in SDL2 using zig, for learning purposes.
 Tested on x86_64 and x86 windows.
 
 ## Building the project

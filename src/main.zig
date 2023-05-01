@@ -11,6 +11,7 @@ const ROWS = SCREEN_WIDTH / CELL_SIZE;
 const COLS = SCREEN_HEIGHT / CELL_SIZE;
 const FPS = 30;
 
+// Color struct
 const Color = struct {
     r: u8, // red
     g: u8, // green
@@ -193,6 +194,7 @@ pub fn main() !void {
     defer c.SDL_Quit();
 
     // zig fmt: off
+    // Creates a window
     var window = c.SDL_CreateWindow(
         "Game of life",
         c.SDL_WINDOWPOS_CENTERED,
@@ -205,6 +207,7 @@ pub fn main() !void {
     defer c.SDL_DestroyWindow(window);
 
     // zig fmt: off
+    // SDL Renderer
     var renderer = c.SDL_CreateRenderer(
         window,
         0,

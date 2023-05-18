@@ -9,6 +9,8 @@ Tested on x86_64 and x86 windows.
 zig build -Drelease-fast
 ```
 
+the executable will be present under `./zig-out/bin` from the root directory.
+
 ## LICENSE
 
 ```text

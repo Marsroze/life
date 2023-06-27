@@ -5,6 +5,20 @@ Tested on x86_64 and x86 windows.
 
 ## Building the project
 
+### Directory structure of project
+
+```text
+├───libs
+│   └───SDL2
+│       ├───lib
+│       │   ├───x64
+│       │   └───x86
+│       └───include
+├───src
+```
+
+### Build step
+
 ```sh
 zig build -Drelease-fast
 ```
